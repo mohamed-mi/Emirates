@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Selenium.Listeners"/>
+  </listeners>
+  <test name="Validate Title(failed)">
+    <classes>
+      <class name="Selenium.validateTitle">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="baseNavigationPage"/>
+        </methods>
+      </class> <!-- Selenium.validateTitle -->
+    </classes>
+  </test> <!-- Validate Title(failed) -->
+</suite> <!-- Failed suite [Suite] -->

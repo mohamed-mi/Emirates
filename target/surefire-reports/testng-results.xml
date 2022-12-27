@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-18T19:06:24Z" name="Suite" finished-at="2022-07-18T19:07:41Z" duration-ms="77546">
+    <groups>
+    </groups>
+    <test started-at="2022-07-18T19:06:24Z" name="Test" finished-at="2022-07-18T19:07:41Z" duration-ms="77546">
+      <class name="Selenium.homePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Selenium.homePage@5dd91bca]" started-at="2022-07-19T00:36:24Z" name="initialize" finished-at="2022-07-19T00:36:26Z" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="initialize()[pri:0, instance:Selenium.validateTitle@40cb698e]" started-at="2022-07-19T00:36:26Z" name="initialize" finished-at="2022-07-19T00:36:26Z" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="baseNavigationPage(java.lang.String, java.lang.String)[pri:0, instance:Selenium.homePage@5dd91bca]" started-at="2022-07-19T00:36:26Z" name="baseNavigationPage" data-provider="getData" finished-at="2022-07-19T00:37:03Z" duration-ms="36569" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationPage -->
+        <test-method signature="baseNavigationPage(java.lang.String, java.lang.String)[pri:0, instance:Selenium.homePage@5dd91bca]" started-at="2022-07-19T00:37:03Z" name="baseNavigationPage" data-provider="getData" finished-at="2022-07-19T00:37:20Z" duration-ms="17255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[username2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[345677654]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.homePage@5dd91bca]" started-at="2022-07-19T00:37:41Z" name="tearDown" finished-at="2022-07-19T00:37:41Z" duration-ms="249" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Selenium.validateTitle@40cb698e]" started-at="2022-07-19T00:37:41Z" name="tearDown" finished-at="2022-07-19T00:37:41Z" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Selenium.homePage -->
+      <class name="Selenium.validateTitle">
+        <test-method signature="baseNavigationPage()[pri:0, instance:Selenium.validateTitle@40cb698e]" started-at="2022-07-19T00:37:20Z" name="baseNavigationPage" finished-at="2022-07-19T00:37:41Z" duration-ms="20517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseNavigationPage -->
+      </class> <!-- Selenium.validateTitle -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
